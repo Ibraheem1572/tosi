@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pala {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .bul {
+            color: rgb(39, 52, 106);
+        }
+
+        .whi {
+            color: rgb(39, 144, 195);
+        }
+
+        .yana {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .eve {
+            display: flex;
+            align-items: center;
+        }
+
+        .eve img {
+            width: 120px;
+            height: 120px;
+        }
+
+       
+
+        .boso .taga {
+            background-color: white;
+            border-radius: 20px;
+            border: 1px solid #3C8EC6;
+            color: #00A0D4;
+        }
+
+        .boso .basa {
+            background-color: #005EA6;
+            border-radius: 20px;
+            color: #FFFFF1;
+        }
+
+        .tasa {
+            position: absolute;
+            width: 100%;
+
+        }
+
+        .zie {
+            width: 100%;
+            display: grid !important;
+            grid-template-columns: repeat(2, 1fr) !important;
+            background-color: rgb(1, 33, 105) !important;
+            color: white !important;
+        }
+
+        .era {
+            background-image: url(image/homepage-hero-1x.jpg);
+            padding: 100px;
+            width: 100%;
+            background-repeat: no-repeat
+
+        }
+
+        .asro {
+            color: white;
+            font-size: xx-large;
+        }
+
+        .boro {
+            background-color: rgb(0, 94, 166);
+            color: rgb(255, 255, 255);
+            border-radius: 40px;
+            border: none;
+            width: fit-content;
+            font-size: 20px;
+            padding: 5px 100px;
+        }
+
+        .baraz {
+            color: rgb(255, 255, 241);
+        }
+        .faq{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .baj{
+            margin: auto;
+        }
+        .alad{
+            background-color:  rgb(255, 255, 255);
+        }
+        .saj{
+          background-color: rgb(255, 255, 255);  
+          color: rgb(24, 141, 210);
+          border:solid rgb(0, 112, 186);
+          border-radius: 60px; 
+        }
+        .val{
+            font-size: 30px;
+        }
+        .pac{
+            display: flex;
+           justify-content: center;
+           
+        }
+        .yago{
+            font-size: 30px;
+        }
+        .sego{
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+        }
+        .lav{
+            background-color: rgb(247, 249, 250);
+            color: rgb(96, 116, 186);
+            border: solid rgb(0, 112, 186);
+            border-radius: 80px;
+        }
+        .yayo{
+            display: flex;
+            justify-content: center;
+        }
+        .pasa{
+            background-color: rgb(0, 48, 135);
+            color: white;
+        }
+        .sala{
+            display: flex;
+        }
+        .hoho{
+            background-color: rgb(0, 94, 166);
+            color: white;
+            border: solid rgb(0, 94, 166);
+            border-radius: 100px;
+        }
+        .oou{
+            background-color: rgb(247, 249, 250);
+            
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="pala">
+        <div class="eve">
+            <img src="image/paypal logo.svg" alt="">
+            
+        </div>
+        <div>
+
+            <p class="d-inline-flex gap-1"></p>
+
+            <p class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false"
+                aria-controls="collapseExample">
+                Personal <i class="fa-solid fa-caret-down"></i>
+            </p>
+            
+
+        </div>
+        <div class="boso">
+            <button class="taga">Log in</button>
+            <button class="basa">Sign Up</button>
+        </div>
+    </nav>
+    <div class="collapse tasa" id="collapseExample">
+        <div class="card card-body zie">
+            <div>
+                <p>How PayPal works</p>
+                <p> What you can do with a personal account</p>
+            </div>
+            <div>
+                <p>Send payments</p>
+                <p>Send payments abroad</p>
+            </div>
+            <div>
+                <p>Pay online</p>
+                <p>Online payments without borders</p>
+            </div>
+            <div>
+                <p>Search for Deals</p>
+                <p>Pay with PayPal and save money</p>
+            </div>
+        </div>
+    </div>
+    <div class="era">
+        <div style="width: fit-content;  margin: auto;">
+            <div class="asro">
+                <p>The simpler safer way to pay online.</p>
+            </div>
+            <div class="faq">
+                <button class="boro">Sign Up for Free</button>
+                <p class="baraz">Own a business? <b>Open a Business account.</b></p>
+            </div>
+        </div>
+    </div>
+    <div class="alad">
+        <div style="width: fit-content; margin: auto;">
+            <div class="val">
+                <p>PayPal is for everyone who pays online.</p>
+            </div>
+            <div class="taros">
+                <img src="image/indivi.jpg" alt="">
+                <p>Individuals</p>
+                <p>Find out why we have more then 200M active account worldwide.</p>
+            </div>
+            <div class="pac">
+                <button class="saj">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div style="width: fit-content; margin: auto;">
+            <p class="yago">PayPal connects buyers and sellers.</p>
+            <div style="width: fit-content;margin: auto;">
+                <u>For buyers</u>
+            </div>
+        </div>
+        <div class="sego">
+            <div>
+                <img src="image/buyonline_1.png" alt="">
+                <p> 1 Sign up with just an email address and <br> password.</p>
+            </div>
+            <div>
+                <img src="image/buyonline_2.png" alt="">
+                <p> 2 Securely add your cards.</p>
+            </div>   
+            <div>
+                <img src="image/buyonline_3.png" alt="">
+                <p> 3 Use the PayPal button to check out with <br> just an email address and password.</p>
+            </div>
+            <div class="yayo">
+                <button class="lav">Learn More</button>
+            </div>    
+        </div>
+    </div>
+    <div class="pasa">
+        <div>
+            <p>Join 200M active PayPal accounts online.</p> 
+        </div>
+        <div class="sala">
+            <div>
+                <h>Safer and protected</h>
+                <p>Shop with peace of mind. We don't share your full financial information with <br> sellers. And PayPal buyer Protection covers your eligible purchases if they don't <br> show up or match their discription.</p>
+                <p>More about security</p>
+            </div>
+            <div>
+                <div>
+                    <p>Mostly free, always upfront</p>
+                    <p>It's free to open a PayPal account and buy something using PayPal unless it involves <br> a currency conversion.</p>
+                    <p>More about fee</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="oou">
+        <div>
+            Sign up and get started.
+        </div>
+        <button class="hoho">Get Started</button>
+    </div>
+    <div>
+
+        <div>
+            <u>
+                <p>Help Contact Fees Security Feutures Shop</p> <img src="image/flag.jpg" alt="">
+            </u>
+            <p>About Newsroom Job Developer © 1999-2024 All rights reserved. Accessibility Cookies Privacy Legal</p>
+            <p>PayPal Pte. Ltd is licensed by the Monetary Authority of Singapore as a Major Payment institution under the Payment services act 2019.</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html> 
