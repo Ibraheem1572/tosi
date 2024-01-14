@@ -35,7 +35,7 @@
             height: 120px;
         }
 
-       
+
 
         .boso .taga {
             background-color: white;
@@ -69,7 +69,6 @@
             padding: 100px;
             width: 100%;
             background-repeat: no-repeat
-
         }
 
         .asro {
@@ -90,65 +89,84 @@
         .baraz {
             color: rgb(255, 255, 241);
         }
-        .faq{
+
+        .faq {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-        .baj{
+
+        .baj {
             margin: auto;
         }
-        .alad{
-            background-color:  rgb(255, 255, 255);
+
+        .alad {
+            background-color: rgb(255, 255, 255);
         }
-        .saj{
-          background-color: rgb(255, 255, 255);  
-          color: rgb(24, 141, 210);
-          border:solid rgb(0, 112, 186);
-          border-radius: 60px; 
+
+        .saj {
+            background-color: rgb(255, 255, 255);
+            color: rgb(24, 141, 210);
+            border: solid rgb(0, 112, 186);
+            border-radius: 60px;
         }
-        .val{
+
+        .val {
             font-size: 30px;
         }
-        .pac{
+
+        .pac {
             display: flex;
-           justify-content: center;
-           
+            justify-content: center;
+
         }
-        .yago{
+
+        .yago {
             font-size: 30px;
         }
-        .sego{
+
+        .sego {
             display: grid;
-            grid-template-columns: repeat(3,auto);
+            grid-template-columns: repeat(3, auto);
         }
-        .lav{
+
+        .lav {
             background-color: rgb(247, 249, 250);
             color: rgb(96, 116, 186);
             border: solid rgb(0, 112, 186);
             border-radius: 80px;
         }
-        .yayo{
+
+        .yayo {
             display: flex;
             justify-content: center;
         }
-        .pasa{
+
+        .pasa {
             background-color: rgb(0, 48, 135);
             color: white;
         }
-        .sala{
+
+        .sala {
             display: flex;
         }
-        .hoho{
+
+        .hoho {
             background-color: rgb(0, 94, 166);
             color: white;
             border: solid rgb(0, 94, 166);
             border-radius: 100px;
+
         }
-        .oou{
+
+        .oou {
             background-color: rgb(247, 249, 250);
-            
+            text-align: center;
+        }
+
+        .taros {
+            margin: 0 auto;
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -160,7 +178,7 @@
     <nav class="pala">
         <div class="eve">
             <img src="image/paypal logo.svg" alt="">
-            
+
         </div>
         <div>
 
@@ -170,12 +188,12 @@
                 aria-controls="collapseExample">
                 Personal <i class="fa-solid fa-caret-down"></i>
             </p>
-            
+
 
         </div>
         <div class="boso">
-            <button class="taga">Log in</button>
-            <button class="basa">Sign Up</button>
+            <button class="taga btn btn-outline-primary px-4 py-2 rounded-5">Log in</button>
+            <button class="basa btn btn-outline-primary px-4 py-2 rounded-5">Sign Up</button>
         </div>
     </nav>
     <div class="collapse tasa" id="collapseExample">
@@ -214,13 +232,13 @@
             <div class="val">
                 <p>PayPal is for everyone who pays online.</p>
             </div>
-            <div class="taros">
+            <div class="taros text-center">
                 <img src="image/indivi.jpg" alt="">
                 <p>Individuals</p>
                 <p>Find out why we have more then 200M active account worldwide.</p>
             </div>
             <div class="pac">
-                <button class="saj">Learn More</button>
+                <button class="saj btn btn-outline-primary px-4 py-2 rounded-5 ">Learn More</button>
             </div>
         </div>
     </div>
@@ -239,51 +257,72 @@
             <div>
                 <img src="image/buyonline_2.png" alt="">
                 <p> 2 Securely add your cards.</p>
-            </div>   
+            </div>
             <div>
                 <img src="image/buyonline_3.png" alt="">
                 <p> 3 Use the PayPal button to check out with <br> just an email address and password.</p>
             </div>
-            <div class="yayo">
-                <button class="lav">Learn More</button>
-            </div>    
+        </div>
+        <div class="yayo">
+            <button class="lav btn btn-outline-primary px-4 py-2 rounded-5">Learn More</button>
         </div>
     </div>
-    <div class="pasa">
-        <div>
-            <p>Join 200M active PayPal accounts online.</p> 
+    <div class="pasa p-5 mt-5">
+        <div class="fs-1 fw-lighter text-center">
+            <p>Join 200M active PayPal accounts online.</p>
         </div>
-        <div class="sala">
-            <div>
+        <div class="sala py-5">
+            <div class="mx-3">
                 <h>Safer and protected</h>
-                <p>Shop with peace of mind. We don't share your full financial information with <br> sellers. And PayPal buyer Protection covers your eligible purchases if they don't <br> show up or match their discription.</p>
+                <p>Shop with peace of mind. We don't share your full financial information with <br> sellers. And PayPal
+                    buyer Protection covers your eligible purchases if they don't <br> show up or match their
+                    discription.</p>
                 <p>More about security</p>
             </div>
-            <div>
+            <div class="mx-3">
                 <div>
                     <p>Mostly free, always upfront</p>
-                    <p>It's free to open a PayPal account and buy something using PayPal unless it involves <br> a currency conversion.</p>
+                    <p>It's free to open a PayPal account and buy something using PayPal unless it involves <br> a
+                        currency conversion.</p>
                     <p>More about fee</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="oou">
-        <div>
+    <div class="oou" style="padding: 5rem;">
+        <p class="fs-3">
             Sign up and get started.
-        </div>
-        <button class="hoho">Get Started</button>
+        </p>
+        <button class="btn btn-primary btn-lg rounded-5" style="padding-inline: 8rem;">Get Started</button>
     </div>
-    <div>
+    <div class="container d-flex justify-content-between py-2 border-bottom my-2">
+        <div class="d-flex">
+            <a class="px-1 nav-link" href="#">Help</a><a class="px-1 nav-link" href="#">Contact</a><a class="px-1 nav-link"
+                href="#">Fees</a><a class="px-1 nav-link" href="#">Security</a><a class="px-1 nav-link" href="#">Features</a><a
+                class="px-1 nav-link" href="#">Shop</a>
+        </div>
+        <div class="d-flex justify-content-end">
+            <img src="image/flag.jpg" alt="" srcset="" width="10%">
+        </div>
 
-        <div>
-            <u>
-                <p>Help Contact Fees Security Feutures Shop</p> <img src="image/flag.jpg" alt="">
-            </u>
-            <p>About Newsroom Job Developer © 1999-2024 All rights reserved. Accessibility Cookies Privacy Legal</p>
-            <p>PayPal Pte. Ltd is licensed by the Monetary Authority of Singapore as a Major Payment institution under the Payment services act 2019.</p>
+    </div>
+    <div class="container d-flex justify-content-between">
+        <div class="d-flex">
+            <a class="px-1 nav-link" href="#">About</a>
+            <a class="px-1 nav-link" href="#">Newsroom</a>
+            <a class="px-1 nav-link" href="#">Jobs</a>
+            <a class="px-1 nav-link" href="#">Developers</a>
+        </div>
+        <div class="d-flex">
+            <p>&copy 1999-2004 All right reserved.</p>
+            <a href="#">Accessibility</a>
+            <a href="#">Cookies</a>
+            <a href="#">Privacy</a>
+            <a href="#">Legal</a>
         </div>
     </div>
+    <p class="text-muted container py-1" style="font-size: smaller;">PayPal Pte. Ltd is licensed by the Monetary Authority of Singapore as a Major Payment institution under
+        the Payment services act 2019.</p>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -293,4 +332,4 @@
         crossorigin="anonymous"></script>
 </body>
 
-</html> 
+</html>
